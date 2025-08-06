@@ -1,0 +1,32 @@
+.cards-container {
+    margin: 20px auto 0 auto; /* espacio superior y centrado horizontalmente */
+    padding: 0 5px;          /* margen a los costados */
+    max-width: 1200px;        /* opcional: límite de ancho para que no se estiren en pantallas grandes */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* responsive */
+    gap: 10px;                /* espacio entre las tarjetas */
+}
+
+.cards-title {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 5px rgba(90, 255, 75, 0.918); /* sutil sombra */
+}
+
+.card-image {
+  display: block;
+  margin: 0 auto;
+  width: 110px;
+  height: 110px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+  

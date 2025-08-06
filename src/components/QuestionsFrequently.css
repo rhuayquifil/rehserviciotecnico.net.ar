@@ -1,0 +1,31 @@
+.questions-frequently-container {
+    margin: 20px auto 0 auto; /* espacio superior y centrado horizontalmente */
+    padding: 0 5px;          /* margen a los costados */
+    max-width: 1200px;        /* opcional: límite de ancho para que no se estiren en pantallas grandes */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 32px;
+}    
+
+.questions-frequently-title {
+    width: 100%;
+    max-width: 590px; /* Limita el ancho máximo */
+    text-align: center;
+    background-color: #d62828;
+}
+
+.questions-frequently-acordion {
+    width: 100%;
+    max-width: 790px; /* Limita el ancho máximo */
+    text-align: center;
+}
+
+@media (max-width: 576px) {
+    .questions-frequently-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }

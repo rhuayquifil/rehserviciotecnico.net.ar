@@ -1,0 +1,14 @@
+/* Contenedor principal centrado */
+.App {
+  max-width: auto; /* tamaño máximo */
+  background-color: fff;
+}
+
+.body-container {
+  max-width: 1600px; /* tamaño.maxcdn */
+  margin: 0 auto;     /* centra horizontalmente */
+  padding: 5px 5px; /* espacio interior */
+  background-color: #fff;
+  /* box-shadow: 0 0 10px rgba(0,0,0,0.05);  sutil sombra */
+  border-radius: 8px;  /* bordes redondeados suaves */
+}
